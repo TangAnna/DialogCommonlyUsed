@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DateActivity">
+
+    <com.example.tang.dialogcommonlyused.widget.MyToolbar
+        android:id="@+id/toolbar_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88" />
+
+    <LinearLayout
+        android:id="@+id/layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:layout_marginTop="@dimen/y20"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x30"
+        android:paddingRight="@dimen/x30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:gravity="center_vertical"
+            android:text="@string/date_date"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y80"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="@string/date_chooseDate"
+            android:textColor="@color/color999"
+            android:textSize="@dimen/x28" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/colorDividingLine" />
+
+    <LinearLayout
+        android:id="@+id/layout_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x30"
+        android:paddingRight="@dimen/x30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:gravity="center_vertical"
+            android:text="@string/date_chooseBirthday"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_birthday"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y80"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="@string/date_birthday"
+            android:textColor="@color/color999"
+            android:textSize="@dimen/x28" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/colorDividingLine" />
+
+    <LinearLayout
+        android:id="@+id/layout_lunarCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x30"
+        android:paddingRight="@dimen/x30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:gravity="center_vertical"
+            android:text="@string/date_chooseLunarCalendar"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_lunarCalendar"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y80"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="@string/date_lunarCalendar"
+            android:textColor="@color/color999"
+            android:textSize="@dimen/x28" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/colorDividingLine" />
+
+
+</LinearLayout>

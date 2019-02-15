@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y520"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialogChooseTime_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y90"
+        android:layout_gravity="right"
+        android:gravity="center_vertical|right"
+        android:paddingLeft="@dimen/dimen_default_margin"
+        android:paddingRight="@dimen/dimen_default_margin"
+        android:text="@string/date_complete"
+        android:textColor="@color/color333"
+        android:textSize="@dimen/x28" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/colorDividingLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <com.example.tang.dialogcommonlyused.widget.WheelView
+            android:id="@+id/wv_dialogChooseTime_year"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            app:lineColor="@color/colorDividingLine"
+            app:lineHeight="@dimen/y1"
+            app:noEmpty="true"
+            app:normalTextColor="@color/color999"
+            app:normalTextSize="@dimen/x28"
+            app:selectedTextColor="@color/color333"
+            app:selectedTextSize="@dimen/x30"
+            app:unitHeight="@dimen/y70" />
+
+        <com.example.tang.dialogcommonlyused.widget.WheelView
+            android:id="@+id/wv_dialogChooseTime_mouth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            app:lineColor="@color/colorDividingLine"
+            app:lineHeight="@dimen/y1"
+            app:noEmpty="true"
+            app:normalTextColor="@color/color999"
+            app:normalTextSize="@dimen/x28"
+            app:selectedTextColor="@color/color333"
+            app:selectedTextSize="@dimen/x30"
+            app:unitHeight="@dimen/y70" />
+
+        <com.example.tang.dialogcommonlyused.widget.WheelView
+            android:id="@+id/wv_dialogChooseTime_day"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            app:lineColor="@color/colorDividingLine"
+            app:lineHeight="@dimen/y1"
+            app:noEmpty="true"
+            app:normalTextColor="@color/color999"
+            app:normalTextSize="@dimen/x28"
+            app:selectedTextColor="@color/color333"
+            app:selectedTextSize="@dimen/x30"
+            app:unitHeight="@dimen/y70" />
+    </LinearLayout>
+</LinearLayout>

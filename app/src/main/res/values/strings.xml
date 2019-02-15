@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DialogCommonlyUsed</string>
+
+    <!--首页listView中的文字-->
+    <string name="mainPayPwd">支付密码弹窗</string>
+
+    <!--支付密码页面-->
+    <string name="payPwd">确认支付</string>
+    <string name="pay_commodityInfo">您购买的商品信息</string>
+    <string name="pay_commodityName">商品名称：网红辣条(林更新最爱)</string>
+    <string name="pay_commodityPrice">商品价格：￥15.00</string>
+    <string name="pay_inputPwd">请输入支付密码</string>
+    <string name="pay_wallet">钱包</string>
+
+    <!--选择日期-->
+    <string name="date_complete">完成</string>
+    <string name="date_chooseError">请选择小于当前时间的日期</string>
+    <string name="date_chooseDate">请选择日期</string>
+    <string name="date_date">日期</string>
+    <string name="date_chooseBirthday">请选择生日</string>
+    <string name="date_birthday">生日</string>
+    <string name="date_chooseLunarCalendar">选择阴历日期</string>
+    <string name="date_lunarCalendar">阴历日期</string>
+</resources>

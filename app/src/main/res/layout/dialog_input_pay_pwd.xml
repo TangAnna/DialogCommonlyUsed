@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/x562"
+        android:layout_height="@dimen/y552"
+        android:background="@drawable/bg_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y90"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/pay_inputPwd"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/x32" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:background="@color/colorDividingLine" />
+
+        <TextView
+            android:id="@+id/tv_dialog_inputPayPwd_payAmount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y180"
+            android:gravity="center"
+            android:text="￥15.00"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/x60" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@color/colorDividingLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/x30"
+            android:paddingRight="@dimen/x30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@mipmap/wallet"
+                android:drawablePadding="@dimen/x10"
+                android:gravity="center"
+                android:text="@string/pay_wallet"
+                android:textColor="@color/color333"
+                android:textSize="@dimen/x28" />
+
+            <TextView
+                android:id="@+id/tv_dialog_inputPayPwd_balance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="200.00"
+                android:textColor="@color/color333"
+                android:textSize="@dimen/x28" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@color/colorDividingLine" />
+
+        <com.example.tang.dialogcommonlyused.widget.PasswordInputView
+            android:id="@+id/piv_dialog_inputPayPwd_input"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y85"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="@dimen/y30"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:inputType="number"
+            app:borderColor="@color/colord8"
+            app:borderWidth="@dimen/x1"
+            app:passwordColor="@color/color333"
+            app:passwordLength="6"
+            app:passwordWidth="@dimen/x6" />
+    </LinearLayout>
+
+</LinearLayout>
