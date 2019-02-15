@@ -21,4 +21,8 @@
     <string name="date_birthday">生日</string>
     <string name="date_chooseLunarCalendar">选择阴历日期</string>
     <string name="date_lunarCalendar">阴历日期</string>
+
+    <!--公用的提示弹窗-->
+    <string name="comment_confirm">确定</string>
+    <string name="comment_cancel">取消</string>
 </resources>
